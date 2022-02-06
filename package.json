@@ -10,7 +10,8 @@
   "dependencies": {
     "@vue/composition-api": "^1.4.5",
     "vue": "^2.6.14",
-    "vue-router": "^3.5.3"
+    "vue-router": "^3.5.3",
+    "vuetify": "^2.6.3"
   },
   "devDependencies": {
     "@types/node": "^17.0.13",
