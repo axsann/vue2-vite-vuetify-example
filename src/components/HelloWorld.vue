@@ -25,6 +25,7 @@
     </p>
     <v-btn to="/about">
       About
+      <v-icon>{{ svgPath }}</v-icon>
     </v-btn>
   </div>
 </template>
@@ -32,6 +33,7 @@
 <script lang="ts">
 
 import {defineComponent} from '@vue/composition-api';
+import {mdiAccount} from '@mdi/js';
 
 export default defineComponent({
   props: {
@@ -41,7 +43,12 @@ export default defineComponent({
     return {
       count: 0,
     };
-  }
+  },
+  computed: {
+    svgPath(): string {
+      return mdiAccount;
+    },
+  },
 });
 
 </script>
