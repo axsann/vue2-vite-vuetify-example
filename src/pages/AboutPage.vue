@@ -1,5 +1,10 @@
 <template>
-  <div />
+  <div>
+    <div>About</div>
+    <v-btn to="/home">
+      Home
+    </v-btn>
+  </div>
 </template>
 
 <script lang="ts">

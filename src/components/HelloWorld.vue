@@ -23,6 +23,9 @@
       Edit
       <code>components/HelloWorld.vue</code> to test hot module replacement.
     </p>
+    <v-btn to="/about">
+      About
+    </v-btn>
   </div>
 </template>
 
