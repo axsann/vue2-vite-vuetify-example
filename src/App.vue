@@ -12,7 +12,7 @@ export default defineComponent({
 </template>
 
 <style lang="scss">
-#app {
-  font-family: Roboto, Helvetica, Arial, sans-serif;
+body {
+  font-family: system-ui, sans-serif;
 }
 </style>
