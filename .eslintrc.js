@@ -20,7 +20,6 @@ module.exports = {
   rules: {
     'indent': [2, 2],
     'semi': [2, 'always'],
-    'vue/no-deprecated-slot-attribute': 0,
     'quotes': [2, 'single', {'avoidEscape': true}],
     'no-multiple-empty-lines': 2,
     'no-multi-spaces': 2,
