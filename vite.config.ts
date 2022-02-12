@@ -6,6 +6,11 @@ import {createVuePlugin as vue} from 'vite-plugin-vue2';
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [vue()],
+  // server: {
+  //   proxy: {
+  //     '/api': 'http://localhost:8080',
+  //   },
+  // },
   preview: {
     host: '127.0.0.1',
     open: true,
