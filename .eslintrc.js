@@ -5,7 +5,8 @@ module.exports = {
     es2021: true,
   },
   extends: [
-    'plugin:vue/vue3-recommended',
+    // 'plugin:vue/vue3-recommended',
+    'plugin:vue/recommended',
     'eslint:recommended',
     '@vue/typescript/recommended',
   ],
