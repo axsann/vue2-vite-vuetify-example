@@ -2,6 +2,8 @@
   <v-navigation-drawer
     app
     permanent
+    expand-on-hover
+    :mini-variant.sync="miniVariant"
   >
     <v-list>
       <v-list-item class="px-2">
@@ -54,6 +56,11 @@
 import {defineComponent} from '@vue/composition-api';
 
 export default defineComponent({
+  data() {
+    return {
+      miniVariant: true, // Fix wrong v-main padding. ref: https://github.com/vuetifyjs/vuetify/issues/14585#issuecomment-1009323592
+    };
+  }
 });
 
 </script>
