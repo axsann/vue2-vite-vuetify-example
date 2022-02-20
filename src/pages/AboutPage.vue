@@ -12,7 +12,10 @@
 import {defineComponent} from '@vue/composition-api';
 
 export default defineComponent({
-
+  metaInfo: {
+    // if no subcomponents specify a metaInfo.title, this title will be used
+    title: 'About',
+  }
 });
 
 </script>
